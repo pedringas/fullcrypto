@@ -1,0 +1,51 @@
+@import "../base/variables";
+body{
+    height: 100%;
+    background-color: $blanco;
+    font-family: axiforma-thin;
+    h1{
+        font-family: monument;
+        text-align: center;
+        color: $blanco;
+        font-size: $th1;
+    }
+}
+
+body{
+    h2{
+        color: $blanco;
+        font-family: carentro;
+        font-size: $th2;
+        
+    }
+    h3{
+        color: $blanco;
+        font-family: axiforma-light;
+        font-size: $th3;
+    }
+    h4{
+        color: $blanco;
+        font-family: pitch-regular;
+        font-size: $th3;
+    }
+    ul{
+        text-decoration: none;
+    }
+}
+body{
+    a{
+        text-decoration: none;
+        color:$blanco;
+       
+    }
+}
+body{
+    p{
+        color: $voscuro;
+
+    }
+}
+*{
+    margin:0;
+    padding: 0;  
+}

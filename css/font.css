@@ -1,0 +1,30 @@
+@font-face {
+    font-family: circular;
+    src: url(../fonts/circular-std-medium-500.ttf);
+}
+@font-face {
+    font-family: pitch-regular;
+    src: url(../fonts/pitch-display.regular.ttf);
+}
+@font-face {
+    font-family: axiforma-italic;
+    src: url(../fonts/Kastelov\ -\ Axiforma\ Italic.otf);
+}
+@font-face {
+    font-family: axiforma-light;
+    src: url(../fonts/Kastelov\ -\ Axiforma\ Light.otf);
+}
+@font-face {
+    font-family: axiforma-thin;
+    src: url(../fonts/Kastelov\ -\ Axiforma\ Thin.otf);
+}
+
+@font-face {
+    font-family: monument;
+    src: url(../fonts/MonumentExtended-Regular.otf);
+}
+
+@font-face {
+    font-family: carentro;
+    src: url(../fonts/Carentro\ DEMO.otf);
+}

@@ -1,0 +1,137 @@
+@import "../base/variables";
+@import "../base/mapa";
+@import "../base/extends";
+
+
+header{
+    background: map-get($header , posicion );
+    height: map-get($header, altura);
+
+}
+.hero-image-index{
+    background-image: url(../img/portada2-01\ azul.jpg); 
+    @extend %headercrypto;
+    
+  }
+  .hero-image-pf{
+    background-image: url(../img/portada-paginas.jpg); 
+    @extend %headerpagina;
+    
+    
+  }
+  .hero-image-pr{
+    background-image: url(../img/339\ [Convertido]-01.png); 
+    @extend %headerpagina;
+    
+    
+  }
+  .hero-image-cn{
+    background-image: url(../img/celular\ azul\ portada.jpg);
+    @extend %headerpagina;
+    
+    
+  }
+
+  
+  .hero-image-productos{
+    background-image: url(../img/PRODUCTOS\ CRYPTO.jpg);
+    @extend %columnaindex;
+    &:hover{
+      background-image: url(../img/PRODUCTOS\ CRYPTO\ azul.jpg);
+      transition: all 1s;
+    }
+  }
+
+  .hero-image-preguntas{
+    background-image: url(../img/CPTO\ PREG\ FREC.jpg); 
+    @extend %columnaindex;
+    &:hover{
+      background-image: url(../img/CPTO\ PREG\ FREC\ azul.jpg);
+      transition: all 1s;
+    }
+    
+   
+  }
+
+  .mainposition{
+    @extend %columnaindex;
+  }
+
+.fixed-top{
+  position: absolute;
+}
+
+  .mainindex{
+    @extend %displaycolumn;
+    text-align: center
+  }
+  
+
+  .h1index{
+    @extend %filas;
+  }
+
+  .pheader p{
+    margin-top: 5%;
+    margin-left: 5%;
+    font-size: $pheader;
+    font-family: axiforma-light;
+    color: $blanco;
+
+  }
+  .offcanvas{
+    background-color: $voscuro;
+    color: $vclaro;
+  }
+  .nav-link2{
+    color: $vclaro;
+    font-size: $pheader;
+    margin: 5px 0 5px 0;
+    &:hover{
+      color: $blanco;
+    }
+  }
+
+  .nav-item{
+    margin-top: 10px;
+  }
+.btn-close{
+  background-color: $blanco;
+}
+
+.logocanvas{
+  margin-top: 10rem;
+  @extend %displaycolumn;
+}
+@media (max-width: 700px){
+    .nav-link2{
+        font-size: $tp;
+    }
+
+}
+.navbar-toggler{
+  background-color: $vclaro;
+}
+
+.btnheader a{
+  background-color: $vclaro;
+  color: $voscuro;
+  padding: 9px 25px ;
+  border-radius: 10px;
+  border: solid $vclaro 2px;
+  font-weight: bold;
+  transition: ease-in-out 0.5s;
+  &:hover{
+      background-color: transparent;
+      color: $blanco;
+      border: solid $vclaro 2px;
+      transition: ease-in-out 0.5s;
+  }
+  
+  
+}
+
+.titulopagina{
+  display: flex;
+  justify-content: center;
+}
